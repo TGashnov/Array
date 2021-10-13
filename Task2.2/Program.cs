@@ -84,7 +84,6 @@ namespace Task2._2
 
         static string Input()
         {
-            Console.OutputEncoding = System.Text.Encoding.Unicode;
             Console.WriteLine("Введите текст для транслитерации");
             return Console.ReadLine();
         }
